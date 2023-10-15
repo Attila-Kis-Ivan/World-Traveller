@@ -1,6 +1,7 @@
 import Logo from "./Logo";
 import AppNavigation from "./AppNavigation";
 import styles from "./Sidebar.module.css";
+import { Outlet } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -8,7 +9,7 @@ const Sidebar = () => {
       <Logo />
       <AppNavigation />
 
-      <p>List of cities</p>
+      <Outlet />
       <footer className={styles.footer}>
         <p className={styles.copyright}>
           &copy; Copyright {new Date().getFullYear()} by WorldTraveller Inc.
