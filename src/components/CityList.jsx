@@ -6,8 +6,10 @@ import Message from "./Message";
 const CityList = ({ cities, isLoading }) => {
   if (isLoading) return <Spinner />;
 
-  if (!cities.lenght)
-    return <Message message="Add your first city on the map" />;
+  if (!cities.length)
+    return (
+      <Message message="Add your first city by clicking on the city on the map" />
+    );
 
   return (
     <ul className={styles.CityList}>
