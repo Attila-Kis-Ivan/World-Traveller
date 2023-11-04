@@ -35,6 +35,66 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Pina de Ebro",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-11-04T17:54:16.090Z",
+      "notes": "",
+      "position": {
+        "lat": "41.59079685105603",
+        "lng": "-0.28564453125000006"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Xiangyang",
+      "country": "China",
+      "emoji": "🇨🇳",
+      "date": "2023-11-04T17:58:18.698Z",
+      "notes": "kinatest",
+      "position": {
+        "lat": "31.952162238024975",
+        "lng": "111.88476562500001"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Nabutiv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2023-11-04T18:03:33.679Z",
+      "notes": "",
+      "position": {
+        "lat": "49.439556958940855",
+        "lng": "31.464843750000004"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Bogdanovo",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-11-04T18:06:07.529Z",
+      "notes": "tested",
+      "position": {
+        "lat": "57.088515327886505",
+        "lng": "50.00976562500001"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Rochecolombe",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-11-04T19:29:12.040Z",
+      "notes": "test",
+      "position": {
+        "lat": "44.512176171071054",
+        "lng": "4.460449218750001"
+      },
+      "id": 98443202
     }
   ]
 }
