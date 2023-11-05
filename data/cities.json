@@ -13,30 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
       "cityName": "Pina de Ebro",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -49,52 +25,16 @@
       "id": 98443198
     },
     {
-      "cityName": "Xiangyang",
-      "country": "China",
-      "emoji": "🇨🇳",
-      "date": "2023-11-04T17:58:18.698Z",
-      "notes": "kinatest",
-      "position": {
-        "lat": "31.952162238024975",
-        "lng": "111.88476562500001"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Nabutiv",
-      "country": "Ukraine",
-      "emoji": "🇺🇦",
-      "date": "2023-11-04T18:03:33.679Z",
+      "cityName": "Moulay Yacoub",
+      "country": "Morocco",
+      "emoji": "🇲🇦",
+      "date": "2023-11-05T06:24:14.375Z",
       "notes": "",
       "position": {
-        "lat": "49.439556958940855",
-        "lng": "31.464843750000004"
+        "lat": "34.05265942137599",
+        "lng": "-5.207519531250001"
       },
-      "id": 98443200
-    },
-    {
-      "cityName": "Bogdanovo",
-      "country": "Russian Federation (the)",
-      "emoji": "🇷🇺",
-      "date": "2023-11-04T18:06:07.529Z",
-      "notes": "tested",
-      "position": {
-        "lat": "57.088515327886505",
-        "lng": "50.00976562500001"
-      },
-      "id": 98443201
-    },
-    {
-      "cityName": "Rochecolombe",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2023-11-04T19:29:12.040Z",
-      "notes": "test",
-      "position": {
-        "lat": "44.512176171071054",
-        "lng": "4.460449218750001"
-      },
-      "id": 98443202
+      "id": 98443205
     }
   ]
 }
