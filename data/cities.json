@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
       "cityName": "Pina de Ebro",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -35,6 +23,18 @@
         "lng": "-5.207519531250001"
       },
       "id": 98443205
+    },
+    {
+      "cityName": "Escariche",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-11-11T08:44:47.572Z",
+      "notes": "",
+      "position": {
+        "lat": "40.413496049701955",
+        "lng": "-3.0541992187500004"
+      },
+      "id": 98443206
     }
   ]
 }
