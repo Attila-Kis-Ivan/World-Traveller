@@ -69,6 +69,7 @@ const CitiesProvider = ({ children }) => {
   useEffect(() => {
     const fetchCities = async () => {
       dispatch({ type: "loading" });
+
       try {
         const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
