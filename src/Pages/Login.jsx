@@ -4,8 +4,8 @@ import Navigation from "../components/Navigation";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
-  const [email, setEmail] = useState("ati@example.com");
-  const [password, setPassword] = useState("12345");
+  const [email, setEmail] = useState("jack@example.com");
+  const [password, setPassword] = useState("qwerty");
 
   return (
     <main className={styles.login}>
