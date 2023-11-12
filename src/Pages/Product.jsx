@@ -1,7 +1,7 @@
 import Navigation from "../components/Navigation";
 import styles from "./Product.module.css";
 
-export default function Product() {
+const Product = () => {
   return (
     <main className={styles.product}>
       <Navigation />
@@ -27,4 +27,6 @@ export default function Product() {
       </section>
     </main>
   );
-}
+};
+
+export default Product;

@@ -4,7 +4,7 @@ import Product from ".//Pages/Product";
 import Pricing from ".//Pages/Pricing";
 import PageNotFound from ".//Pages/PageNotFound";
 import AppLayout from "./Pages/AppLayout";
-import Homepage from "./Pages/HomePage";
+import Homepage from "./Pages/Homepage";
 import Login from "./Pages/Login";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
@@ -12,6 +12,7 @@ import City from "./components/City";
 import Form from "./components/Form";
 import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext";
+import ProtectedRoute from "./Pages/ProtectedRoute";
 
 const App = () => {
   return (
@@ -25,7 +26,14 @@ const App = () => {
             <Route path="pricing" element={<Pricing />} />
             <Route path="login" element={<Login />} />
             <Route path="*" element={<PageNotFound />} />
-            <Route path="app" element={<AppLayout />}>
+            <Route
+              path="app"
+              element={
+                <ProtectedRoute>
+                  <AppLayout />
+                </ProtectedRoute>
+              }
+            >
               <Route index element={<Navigate replace to="cities" />} />
               <Route path="cities" element={<CityList />} />
               <Route path="cities/:id" element={<City />} />

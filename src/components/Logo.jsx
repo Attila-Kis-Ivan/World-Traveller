@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Logo.module.css";
 
-function Logo() {
+const Logo = () => {
   return (
     <Link to="/">
       <img
@@ -11,6 +11,6 @@ function Logo() {
       />
     </Link>
   );
-}
+};
 
 export default Logo;

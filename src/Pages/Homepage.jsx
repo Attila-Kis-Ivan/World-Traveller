@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./Homepage.module.css";
 import Navigation from "../components/Navigation";
 
-export default function Homepage() {
+const Homepage = () => {
   return (
     <main className={styles.homepage}>
       <Navigation />
@@ -23,4 +23,6 @@ export default function Homepage() {
       </section>
     </main>
   );
-}
+};
+
+export default Homepage;
