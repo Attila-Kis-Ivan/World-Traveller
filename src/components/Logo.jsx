@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Link to="/">
       <img
-        src="/public/LogoWT.png"
+        src="/dist/WTLogo.png"
         alt="WorlTraveller logo"
         className={styles.logo}
       />
