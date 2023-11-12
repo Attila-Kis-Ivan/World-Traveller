@@ -4,7 +4,11 @@ import styles from "./Logo.module.css";
 const Logo = () => {
   return (
     <Link to="/">
-      <img alt="WorlTraveller logo" className={styles.logo} />
+      <img
+        src="/public/LogoWT.png"
+        alt="WorlTraveller logo"
+        className={styles.logo}
+      />
     </Link>
   );
 };
